@@ -1,37 +1,49 @@
 # Web-Development-and-Applications-Task-2
 ---------------------------------
-# User Management System
+# Web Development and Applications – Task 2
 
-## 📌 Project Description
-A simple User Management System built using PHP and MySQL. The project allows users to add new records, store them in a database, and toggle the user's status between active and inactive.
+## User Management System
+
+A simple web-based User Management System developed using PHP and MySQL.  
+The system allows users to add new records, display stored users, and change their status using the Toggle action.
+
+## 🌐 Live Demo
+
+[View the Live Project](https://dana2026.42web.io)
+
+## 📸 Project Preview
+
+![User Management System Preview](preview.jpg)
 
 ## ✨ Features
-- Add a new user
-- Store user information in MySQL database
+
+- Add a new user by entering a name and age
+- Store user information in a MySQL database
 - Display all users in a table
-- Toggle user status (0 / 1)
-- Simple and responsive interface
+- Toggle the user status between 0 and 1
+- Simple and user-friendly interface
+- Live deployment using InfinityFree
 
 ## 🛠️ Technologies Used
-- PHP
-- MySQL
+
 - HTML
 - CSS
 - JavaScript
+- PHP
+- MySQL
+- InfinityFree
+- phpMyAdmin
 
-## 📂 Project StructureUser-Management-System/
-│── index.php
-│── db.php
-│── toggle.php
-│── style.css
-│── script.js
-
-## 🚀 How to Run
-1. Upload the project files to a PHP web server.
-2. Create a MySQL database.
-3. Import or create the required users table.
-4. Update the database credentials in db.php.
-5. Open the project in your browser.
+## 📂 Project Structure
+Web-Development-and-Applications-Task-2/
+│
+├── index.php
+├── db.php
+├── toggle.php
+├── style.css
+├── script.js
+├── preview.jpg
+└── README.md
 
 ## 🗄️ Database Structure
 CREATE TABLE users (
@@ -41,11 +53,18 @@ CREATE TABLE users (
     status TINYINT(1) NOT NULL DEFAULT 0
 );
 
-## 📸 Preview
+## 🚀 How to Run the Project
 
-- Add users
-- View all users
-- Toggle user status
+1. Install and open XAMPP.
+2. Start Apache and MySQL.
+3. Place the project folder inside:
+C:\xampp\htdocs\
+
+4. Create a MySQL database using phpMyAdmin.
+5. Create the users table using the provided SQL code.
+6. Update the database connection details in db.php.
+7. Open the project in the browser:
+http://localhost/user-management/
 
 ## 👩‍💻 Author
 
